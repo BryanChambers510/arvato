@@ -30,8 +30,11 @@ suggests that given complete information about a household it could easily be as
 for advertisement. 
 
 Unfortunately the machine learning model did not fare very well and scored a very low roc-auc score. This was a surprise considering the clustering model 
-worked so well it was easy to assume the maching learning model would too. It could be that the hyperparameters need more fine tuning or there could be 
-some other unidentified issue. 
+worked so well it was easy to assume the maching learning model would too. Also it was odd since the score on the validation sets was okay, the best 
+scores being around 0.65, so realistically the scores on the test set should be in that ballpark too but they were not. Moreover, earlier models
+with less data engineering performed better on the validation data, but worse on the test set and the clustering model. It could be that the hyperparameters need more fine tuning or there could be some other unidentified issue. 
 
 #A report for this project was published on 'Medium' a the following link: https://bryanchambers-25994.medium.com/customer-segmentation-for-bertelsmann-arvato-project-ce3edd722be4
+
+
 
