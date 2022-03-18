@@ -33,3 +33,5 @@ Unfortunately the machine learning model did not fare very well and scored a ver
 worked so well it was easy to assume the maching learning model would too. It could be that the hyperparameters need more fine tuning or there could be 
 some other unidentified issue. 
 
+#A report for this project was published on 'Medium' a the following link: https://bryanchambers-25994.medium.com/customer-segmentation-for-bertelsmann-arvato-project-ce3edd722be4
+
