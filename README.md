@@ -27,7 +27,7 @@ A pipeline was implemented with hyperparameters to optimize the model.
 The unsupervised model worked very well. Plotting the variance vs. number of clusters showed that a good number of clusters to choose is about 8 and using
 this value showed very clearly that the customers fall into three of the eight clusters with a high proportion and a low proportion in the others. This
 suggests that given complete information about a household it could easily be ascertained what cluster they belong to and whether it is worth targeting them for advertisement
-[download](https://user-images.githubusercontent.com/56938811/163463504-8be1dbeb-4b5a-4072-99af-f438c7709f45.png)
+(https://user-images.githubusercontent.com/56938811/163463504-8be1dbeb-4b5a-4072-99af-f438c7709f45.png)
 
 
 Unfortunately the machine learning model did not fare very well and scored a very low roc-auc score. This was a surprise considering the clustering model 
